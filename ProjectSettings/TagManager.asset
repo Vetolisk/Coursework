@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Enemy
+  - Door
+  - Trigger
+  - TilemapVisualizer
+  - TriggerBos
+  - EnemyBos
+  - Salut
+  - HP
+  - EnemyArcher
+  - RFD
+  - Shield
+  - ShieldB
+  - ShieldItem
+  - txt
+  - Cube
+  - Weapon
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Enemy
+  - Water
+  - UI
+  - Menu
+  - Player
+  - BarEnemy
+  - Shield
+  - Ground
+  - Cube
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Ground
+    uniqueID: 992352179
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: UI
+    uniqueID: 3231385207
+    locked: 0
+  - name: Object
+    uniqueID: 1629813193
+    locked: 0
+  - name: Player
+    uniqueID: 2098658343
+    locked: 0
+  - name: BarEnemy
+    uniqueID: 4231950225
+    locked: 0

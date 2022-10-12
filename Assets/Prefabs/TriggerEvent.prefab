@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6175407716850813909
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6175407716850813899}
+  - component: {fileID: 6097995259201522874}
+  m_Layer: 0
+  m_Name: TriggerEvent
+  m_TagString: Trigger
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6175407716850813899
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6175407716850813909}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.03, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6097995259201522874
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6175407716850813909}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 476fd38ac7deb614ca409ee6c48d644f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ListEnemy:
+  - {fileID: 5471458245569809682, guid: 283f2ed8de6997b4c81530457515c623, type: 3}
+  - {fileID: 5471458245569809682, guid: ad663aa9fc5366340bade55a8c77076e, type: 3}
+  EnemyBos: {fileID: 5471458245569809682, guid: 86bdccb48d88ec84782f0c4294c64b1d, type: 3}
+  GlobPos: {x: 0, y: 0, z: 0}
+  Glob: {x: 0, y: 0, z: 0}
+  FlagBos: 0
+  LivePotion: {fileID: 8600534688608153254, guid: 53a890fc343d19d4ebac628c4fbb1114, type: 3}
+  FlagEnemy: 0
+  n: 1
+  Count: 0
+  MaxEnemy: 0
+  FlagsPlayer: 1
+  Portal: {fileID: 6143584470579013713, guid: c32c0b4beeb96ea4cbe7dc81a88af1a3, type: 3}
+  PotralPos: {x: 0, y: 0, z: 0}
+  ShieldItem: {fileID: 5978266251046834222, guid: 507396593dc83c3409ff18e513c5c379, type: 3}
+  FlagCubeFinishTrigger: {fileID: 3486506708126120039, guid: 40250145a9b10b44186d0648bb2dc081, type: 3}
